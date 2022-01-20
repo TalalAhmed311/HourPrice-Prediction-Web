@@ -1,0 +1,56 @@
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0.09),
+        rgba(0, 0, 255, 0.4)
+    );
+}
+
+.header{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-layout{
+
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    margin: 3rem;
+}
+
+.btn-style{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.video-bg{
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
